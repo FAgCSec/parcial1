@@ -1,8 +1,5 @@
-# Infraestructura como Código (IaC)
-
-## Proyecto: HeavyCult Dropshipping — Terraform Configuration
-
-### Archivo: main.tf
+# Infraestructura como Codigo (IaC)
+# Proyecto: HeavyCult Dropshipping — Terraform Configuration
 
 terraform {
   required_version = ">= 1.0"
@@ -13,19 +10,24 @@ terraform {
       version               = "~> 5.0"
       configuration_aliases = [aws.primary, aws.secondary]
     }
-    mongodbatlas = {
-      source  = "mongodb/mongodbatlas"
-      version = "~> 1.0"
-    }
+    # mongodbatlas comentado: requiere API Keys de Atlas
+    # (MONGODB_ATLAS_PUBLIC_KEY / MONGODB_ATLAS_PRIVATE_KEY).
+    # Descomentar para activar la infraestructura de Atlas.
+    # mongodbatlas = {
+    #   source  = "mongodb/mongodbatlas"
+    #   version = "~> 1.0"
+    # }
   }
 
-  backend "s3" {
-    bucket         = "heavycult-terraform-state"
-    key            = "heavycult/data-lake/terraform.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "terraform-locks"
-    encrypt        = true
-  }
+  # Backend remoto comentado: para el parcial se usa estado local.
+  # Para produccion, crear el bucket "heavycult-terraform-state" primero.
+  # backend "s3" {
+  #   bucket         = "heavycult-terraform-state"
+  #   key            = "heavycult/data-lake/terraform.tfstate"
+  #   region         = "us-east-1"
+  #   use_lockfile   = true
+  #   encrypt        = true
+  # }
 }
 
 # ============================================================
@@ -33,23 +35,23 @@ terraform {
 # ============================================================
 
 provider "aws" {
-  alias   = "primary"
-  region  = var.region_primary
-  profile = "default"
+  alias  = "primary"
+  region = var.region_primary
 }
 
 provider "aws" {
-  alias   = "secondary"
-  region  = var.region_secondary
-  profile = "default"
+  alias  = "secondary"
+  region = var.region_secondary
 }
 
-provider "mongodbatlas" {
-  project_id = var.mongodb_atlas_project_id
-}
+# provider "mongodbatlas" {
+#   public_key  = var.mongodb_atlas_public_key
+#   private_key = var.mongodb_atlas_private_key
+#   project_id  = var.mongodb_atlas_project_id
+# }
 
 # ============================================================
-# VPC - REGIÓN PRIMARIA
+# VPC - REGION PRIMARIA
 # ============================================================
 
 resource "aws_vpc" "primary" {
@@ -64,10 +66,10 @@ resource "aws_vpc" "primary" {
 }
 
 resource "aws_subnet" "primary_public" {
-  provider             = aws.primary
-  vpc_id               = aws_vpc.primary.id
-  cidr_block           = "10.0.1.0/24"
-  availability_zone    = "${var.region_primary}a"
+  provider                = aws.primary
+  vpc_id                  = aws_vpc.primary.id
+  cidr_block              = "10.0.1.0/24"
+  availability_zone       = "${var.region_primary}a"
   map_public_ip_on_launch = true
 
   tags = merge(var.tags, {
@@ -76,10 +78,10 @@ resource "aws_subnet" "primary_public" {
 }
 
 resource "aws_subnet" "primary_private" {
-  provider             = aws.primary
-  vpc_id               = aws_vpc.primary.id
-  cidr_block           = "10.0.2.0/24"
-  availability_zone    = "${var.region_primary}a"
+  provider          = aws.primary
+  vpc_id            = aws_vpc.primary.id
+  cidr_block        = "10.0.2.0/24"
+  availability_zone = "${var.region_primary}a"
 
   tags = merge(var.tags, {
     Name = "private-subnet"
@@ -96,7 +98,7 @@ resource "aws_internet_gateway" "primary" {
 }
 
 # ============================================================
-# VPC - REGIÓN SECUNDARIA (DR)
+# VPC - REGION SECUNDARIA (DR)
 # ============================================================
 
 resource "aws_vpc" "secondary" {
@@ -111,10 +113,10 @@ resource "aws_vpc" "secondary" {
 }
 
 resource "aws_subnet" "secondary_private" {
-  provider             = aws.secondary
-  vpc_id               = aws_vpc.secondary.id
-  cidr_block           = "10.0.2.0/24"
-  availability_zone    = "${var.region_secondary}a"
+  provider          = aws.secondary
+  vpc_id            = aws_vpc.secondary.id
+  cidr_block        = "10.0.2.0/24"
+  availability_zone = "${var.region_secondary}a"
 
   tags = merge(var.tags, {
     Name = "dr-private-subnet"
@@ -165,133 +167,87 @@ resource "aws_security_group" "data_lake" {
     description = "S3 HTTPS access"
   }
 
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
   tags = merge(var.tags, {
     Name = "data-lake-sg"
   })
 }
 
 # ============================================================
-# MONGODB ATLAS - CLUSTER PRINCIPAL
+# MONGODB ATLAS - CLUSTER PRINCIPAL (COMENTADO: requiere API Keys)
 # ============================================================
 
-resource "mongodbatlas_cluster" "primary" {
-  provider = mongodbatlas
-
-  project_id = var.mongodb_atlas_project_id
-  name       = "heavycult-primary"
-
-  cluster_type   = "REPLICASET"
-  provider_name  = "AWS"
-  provider_region_name = var.region_primary
-  instance_size_name   = var.mongodb_cluster_tier
-
-  backup_enabled        = true
-  auto_scaling_compute_enabled = true
-  auto_scaling_disk_enabled  = true
-
-  disk_size_gb = 100
-
-  replication_specs {
-    num_shards = 1
-    num_members = 3
-    regions_config {
-      region_name      = var.region_primary
-      electable_members = 1
-      priority         = 7
-      tags           = { "Tier": "Primary" }
-    }
-    regions_config {
-      region_name      = var.region_secondary
-      electable_members = 1
-      priority         = 3
-      tags           = { "Tier": "Secondary" }
-    }
-    regions_config {
-      region_name      = var.region_secondary
-      electable_members = 0
-      priority         = 1
-      tags           = { "Tier": "DR" }
-    }
-  }
-
-  provider_instance_profile_name = "AtlasAWSDefaultAccessRole"
-
-  skip_upgrade_version = false
-
-  tags = merge(var.tags, {
-    Name = "heavycult-primary-cluster"
-  })
-}
+# resource "mongodbatlas_cluster" "primary" {
+#   provider = mongodbatlas
+#
+#   project_id   = var.mongodb_atlas_project_id
+#   name         = "heavycult-primary"
+#   cluster_type = "REPLICASET"
+#
+#   replication_specs {
+#     num_shards = 1
+#     regions_config {
+#       region_name     = var.region_primary
+#       electable_nodes = 3
+#       priority        = 7
+#     }
+#   }
+#
+#   # Provider Settings "block"
+#   provider_instance_size_name = var.mongodb_cluster_tier
+#   provider_name               = "AWS"
+#
+#   disk_size_gb = 100
+# }
 
 # ============================================================
-# MONGODB ATLAS - CLUSTER DR
+# MONGODB ATLAS - CLUSTER DR (COMENTADO)
 # ============================================================
 
-resource "mongodbatlas_cluster" "secondary" {
-  provider = mongodbatlas
-
-  project_id = var.mongodb_atlas_project_id
-  name       = "heavycult-dr"
-
-  cluster_type   = "REPLICASET"
-  provider_name  = "AWS"
-  provider_region_name = var.region_secondary
-  instance_size_name   = var.mongodb_cluster_dr_tier
-
-  backup_enabled        = true
-  auto_scaling_compute_enabled = false
-  auto_scaling_disk_enabled  = false
-
-  disk_size_gb = 50
-
-  replication_specs {
-    num_shards = 1
-    num_members = 2
-    regions_config {
-      region_name      = var.region_secondary
-      electable_members = 1
-      priority         = 7
-      tags           = { "Tier": "DR-Primary" }
-    }
-    regions_config {
-      region_name      = var.region_secondary
-      electable_members = 0
-      priority         = 1
-      tags           = { "Tier": "Arbiter" }
-    }
-  }
-
-  provider_instance_profile_name = "AtlasAWSDefaultAccessRole"
-
-  skip_upgrade_version = false
-
-  tags = merge(var.tags, {
-    Name = "heavycult-dr-cluster"
-  })
-}
+# resource "mongodbatlas_cluster" "secondary" {
+#   provider = mongodbatlas
+#
+#   project_id   = var.mongodb_atlas_project_id
+#   name         = "heavycult-dr"
+#   cluster_type = "REPLICASET"
+#
+#   replication_specs {
+#     num_shards = 1
+#     regions_config {
+#       region_name     = var.region_secondary
+#       electable_nodes = 3
+#       priority        = 7
+#     }
+#   }
+#
+#   provider_instance_size_name = var.mongodb_cluster_dr_tier
+#   provider_name               = "AWS"
+#
+#   disk_size_gb = 50
+# }
 
 # ============================================================
-# MONGODB ATLAS - USUARIOS Y BASES DE DATOS
+# MONGODB ATLAS - USUARIO (COMENTADO)
 # ============================================================
 
-resource "mongodbatlas_database_user" "admin" {
-  provider = mongodbatlas
-
-  project_id = var.mongodb_atlas_project_id
-  username   = var.admin_username
-  password   = var.admin_password
-  roles      = ["GROUP_READ_WRITE", "ATLAS_ADMIN"]
-}
-
-resource "mongodbatlas_project" "primary" {
-  provider = mongodbatlas
-
-  name       = var.project_name
-  org_id     = var.mongodb_atlas_org_id
-  is_data_cache_enabled = true
-
-  tags = var.tags
-}
+# resource "mongodbatlas_database_user" "admin" {
+#   provider = mongodbatlas
+#
+#   project_id = var.mongodb_atlas_project_id
+#   username   = var.admin_username
+#   password   = var.admin_password
+#
+#   roles {
+#     role_name     = "readWrite"
+#     database_name = var.db_name
+#   }
+# }
 
 # ============================================================
 # DATA LAKE - S3 BUCKETS (RAW, PROCESSED, CURATED)
@@ -303,9 +259,9 @@ resource "aws_s3_bucket" "raw" {
   bucket   = "${var.data_lake_bucket_name}-raw"
 
   tags = merge(var.tags, {
-    Name      = "Data Lake - Raw Layer"
-    Tier      = "Bronze"
-    Layer     = "Raw"
+    Name  = "Data Lake - Raw Layer"
+    Tier  = "Bronze"
+    Layer = "Raw"
   })
 }
 
@@ -325,6 +281,8 @@ resource "aws_s3_bucket_lifecycle_configuration" "raw" {
   rule {
     id     = "transition-to-ia"
     status = "Enabled"
+
+    filter {}
 
     transition {
       days          = 30
@@ -348,9 +306,9 @@ resource "aws_s3_bucket" "processed" {
   bucket   = "${var.data_lake_bucket_name}-processed"
 
   tags = merge(var.tags, {
-    Name      = "Data Lake - Processed Layer"
-    Tier      = "Silver"
-    Layer     = "Processed"
+    Name  = "Data Lake - Processed Layer"
+    Tier  = "Silver"
+    Layer = "Processed"
   })
 }
 
@@ -369,9 +327,9 @@ resource "aws_s3_bucket" "curated" {
   bucket   = "${var.data_lake_bucket_name}-curated"
 
   tags = merge(var.tags, {
-    Name      = "Data Lake - Curated Layer"
-    Tier      = "Gold"
-    Layer     = "Curated"
+    Name  = "Data Lake - Curated Layer"
+    Tier  = "Gold"
+    Layer = "Curated"
   })
 }
 
@@ -392,6 +350,8 @@ resource "aws_s3_bucket_lifecycle_configuration" "curated" {
     id     = "transition-to-glacier"
     status = "Enabled"
 
+    filter {}
+
     transition {
       days          = 60
       storage_class = "GLACIER"
@@ -404,7 +364,7 @@ resource "aws_s3_bucket_lifecycle_configuration" "curated" {
 }
 
 # ============================================================
-# S3 CROSS-REGION REPLICATION
+# S3 CROSS-REGION REPLICATION (DR buckets)
 # ============================================================
 
 resource "aws_s3_bucket" "raw_dr" {
@@ -416,6 +376,15 @@ resource "aws_s3_bucket" "raw_dr" {
   })
 }
 
+resource "aws_s3_bucket_versioning" "raw_dr" {
+  provider = aws.secondary
+  bucket   = aws_s3_bucket.raw_dr.id
+
+  versioning_configuration {
+    status = "Enabled"
+  }
+}
+
 resource "aws_s3_bucket" "processed_dr" {
   provider = aws.secondary
   bucket   = "${var.data_lake_bucket_name}-processed-dr"
@@ -425,6 +394,15 @@ resource "aws_s3_bucket" "processed_dr" {
   })
 }
 
+resource "aws_s3_bucket_versioning" "processed_dr" {
+  provider = aws.secondary
+  bucket   = aws_s3_bucket.processed_dr.id
+
+  versioning_configuration {
+    status = "Enabled"
+  }
+}
+
 resource "aws_s3_bucket" "curated_dr" {
   provider = aws.secondary
   bucket   = "${var.data_lake_bucket_name}-curated-dr"
@@ -432,6 +410,15 @@ resource "aws_s3_bucket" "curated_dr" {
   tags = merge(var.tags, {
     Name = "Data Lake - Curated Layer DR"
   })
+}
+
+resource "aws_s3_bucket_versioning" "curated_dr" {
+  provider = aws.secondary
+  bucket   = aws_s3_bucket.curated_dr.id
+
+  versioning_configuration {
+    status = "Enabled"
+  }
 }
 
 resource "aws_s3_bucket_replication_configuration" "raw_replication" {
@@ -444,6 +431,10 @@ resource "aws_s3_bucket_replication_configuration" "raw_replication" {
     status   = var.enable_cross_region_replication ? "Enabled" : "Disabled"
     priority = 1
 
+    delete_marker_replication {
+      status = "Disabled"
+    }
+
     destination {
       bucket        = aws_s3_bucket.raw_dr.arn
       storage_class = "STANDARD"
@@ -453,10 +444,15 @@ resource "aws_s3_bucket_replication_configuration" "raw_replication" {
       prefix = ""
     }
   }
+
+  depends_on = [
+    aws_s3_bucket_versioning.raw,
+    aws_s3_bucket_versioning.raw_dr,
+  ]
 }
 
 # ============================================================
-# IAM - ROLES Y POLÍTICAS
+# IAM - ROLES Y POLITICAS
 # ============================================================
 
 resource "aws_iam_role" "s3_replication" {
@@ -501,7 +497,8 @@ resource "aws_iam_role_policy" "s3_replication_policy" {
         Effect = "Allow"
         Action = [
           "s3:GetObjectVersion",
-          "s3:GetObjectVersionAcl"
+          "s3:GetObjectVersionAcl",
+          "s3:GetObjectVersionTagging"
         ]
         Resource = [
           "${aws_s3_bucket.raw.arn}/*",
@@ -515,7 +512,6 @@ resource "aws_iam_role_policy" "s3_replication_policy" {
           "s3:ReplicateObject",
           "s3:ReplicateDelete",
           "s3:ReplicateTags",
-          "s3:GetObjectVersionTagging",
           "s3:ObjectOwnerOverrideToBucketOwner"
         ]
         Resource = [
@@ -546,25 +542,31 @@ resource "aws_iam_role" "lambda_backup" {
   })
 }
 
+resource "aws_iam_role_policy_attachment" "lambda_basic" {
+  provider   = aws.primary
+  role       = aws_iam_role.lambda_backup.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+}
+
 # ============================================================
 # CLOUDWATCH - MONITOREO Y ALARMAS
 # ============================================================
 
 resource "aws_cloudwatch_log_group" "mongodb" {
-  provider = aws.primary
-  name     = "/mongodb/heavycult"
-  retention_in_days = 90
+  provider            = aws.primary
+  name                = "/mongodb/heavycult"
+  retention_in_days   = 90
 }
 
 resource "aws_cloudwatch_log_group" "data_lake" {
-  provider = aws.primary
-  name     = "/data-lake/heavycult"
-  retention_in_days = 90
+  provider            = aws.primary
+  name                = "/data-lake/heavycult"
+  retention_in_days   = 90
 }
 
 resource "aws_cloudwatch_metric_alarm" "replication_lag" {
-  provider          = aws.primary
-  alarm_name        = "mongo-replication-lag-high"
+  provider            = aws.primary
+  alarm_name          = "mongo-replication-lag-high"
   comparison_operator = "GreaterThanThreshold"
   evaluation_periods  = 1
   metric_name         = "MongoDBReplLatency"
@@ -577,8 +579,8 @@ resource "aws_cloudwatch_metric_alarm" "replication_lag" {
 }
 
 resource "aws_cloudwatch_metric_alarm" "storage_utilization" {
-  provider          = aws.primary
-  alarm_name        = "mongo-storage-high"
+  provider            = aws.primary
+  alarm_name          = "mongo-storage-high"
   comparison_operator = "GreaterThanThreshold"
   evaluation_periods  = 2
   metric_name         = "MongoDBClusterStorageUsed"
@@ -591,8 +593,8 @@ resource "aws_cloudwatch_metric_alarm" "storage_utilization" {
 }
 
 resource "aws_cloudwatch_metric_alarm" "s3_replication_lag" {
-  provider          = aws.primary
-  alarm_name        = "s3-replication-lag-high"
+  provider            = aws.primary
+  alarm_name          = "s3-replication-lag-high"
   comparison_operator = "GreaterThanThreshold"
   evaluation_periods  = 3
   metric_name         = "S3ReplLatency"
@@ -621,43 +623,9 @@ resource "aws_sns_topic_subscription" "email" {
   provider  = aws.primary
   topic_arn = aws_sns_topic.alerts.arn
   protocol  = "email"
-  endpoint  = "admin@heavycult.com"
+  endpoint  = var.alert_email
 }
 
 # ============================================================
-# OUTPUTS
+# OUTPUTS (definidos en outputs.tf)
 # ============================================================
-
-output "mongodb_primary_connection_string" {
-  description = "Connection string para MongoDB primario"
-  value       = mongodbatlas_cluster.primary.connection_strings[0].standard
-  sensitive   = true
-}
-
-output "mongodb_secondary_connection_string" {
-  description = "Connection string para MongoDB secundario (DR)"
-  value       = mongodbatlas_cluster.secondary.connection_strings[0].standard
-  sensitive   = true
-}
-
-output "s3_raw_bucket" {
-  description = "Nombre del bucket S3 para datos raw"
-  value       = aws_s3_bucket.raw.bucket
-}
-
-output "s3_processed_bucket" {
-  description = "Nombre del bucket S3 para datos processed"
-  value       = aws_s3_bucket.processed.bucket
-}
-
-output "s3_curated_bucket" {
-  description = "Nombre del bucket S3 para datos curated"
-  value       = aws_s3_bucket.curated.bucket
-}
-
-
-
-output "security_group_mongodb" {
-  description = "ID del security group de MongoDB"
-  value       = aws_security_group.mongodb.id
-}
