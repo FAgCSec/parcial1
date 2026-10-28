@@ -9,7 +9,10 @@ venv/
 *.egg-info/
 dist/
 build/
-terraform/
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
 output/
 docs/diccionario_datos.md
 google-credentials.json
