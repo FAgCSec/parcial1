@@ -1,0 +1,2984 @@
+[
+  {
+    "producto_id": "DROPI_32109",
+    "nombre": "Camiseta Perspiciatis HeavyCult",
+    "sku": "SKU-411-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_75725",
+    "nombre": "Chaquetón Ipsa HeavyCult",
+    "sku": "SKU-431-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_68129",
+    "nombre": "Chaquetón Iure HeavyCult",
+    "sku": "SKU-272-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_44217",
+    "nombre": "Camiseta Accusantium HeavyCult",
+    "sku": "SKU-261-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_46285",
+    "nombre": "Chaquetón Illum HeavyCult",
+    "sku": "SKU-359-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_89643",
+    "nombre": "Camiseta Tempore HeavyCult",
+    "sku": "SKU-386-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_64902",
+    "nombre": "Chaquetón Repudiandae HeavyCult",
+    "sku": "SKU-276-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_29827",
+    "nombre": "Camiseta Molestiae HeavyCult",
+    "sku": "SKU-130-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_21720",
+    "nombre": "Morral Itaque HeavyCult",
+    "sku": "SKU-329-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_15361",
+    "nombre": "Chaquetón Earum HeavyCult",
+    "sku": "SKU-274-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_43554",
+    "nombre": "Botas Necessitatibus HeavyCult",
+    "sku": "SKU-237-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_25810",
+    "nombre": "Botas Quae HeavyCult",
+    "sku": "SKU-330-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_34179",
+    "nombre": "Chaquetón Alias HeavyCult",
+    "sku": "SKU-233-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_32461",
+    "nombre": "Chaquetón Est HeavyCult",
+    "sku": "SKU-123-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_22637",
+    "nombre": "Morral Temporibus HeavyCult",
+    "sku": "SKU-115-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_51049",
+    "nombre": "Morral Ipsa HeavyCult",
+    "sku": "SKU-441-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_74560",
+    "nombre": "Morral Ducimus HeavyCult",
+    "sku": "SKU-113-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_65494",
+    "nombre": "Chaquetón Natus HeavyCult",
+    "sku": "SKU-429-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_43622",
+    "nombre": "Camiseta Veniam HeavyCult",
+    "sku": "SKU-325-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_67438",
+    "nombre": "Morral Debitis HeavyCult",
+    "sku": "SKU-349-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_26554",
+    "nombre": "Chaquetón Adipisci HeavyCult",
+    "sku": "SKU-155-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_25462",
+    "nombre": "Chaquetón Sit HeavyCult",
+    "sku": "SKU-334-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_23340",
+    "nombre": "Camiseta Deleniti HeavyCult",
+    "sku": "SKU-32-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_19690",
+    "nombre": "Morral Nostrum HeavyCult",
+    "sku": "SKU-29-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_40294",
+    "nombre": "Chaquetón Placeat HeavyCult",
+    "sku": "SKU-424-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_37132",
+    "nombre": "Camiseta Nesciunt HeavyCult",
+    "sku": "SKU-219-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_53152",
+    "nombre": "Botas Necessitatibus HeavyCult",
+    "sku": "SKU-234-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_59518",
+    "nombre": "Camiseta Dignissimos HeavyCult",
+    "sku": "SKU-385-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_28890",
+    "nombre": "Chaquetón Accusantium HeavyCult",
+    "sku": "SKU-143-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_72068",
+    "nombre": "Chaquetón Itaque HeavyCult",
+    "sku": "SKU-257-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_42653",
+    "nombre": "Camiseta Voluptates HeavyCult",
+    "sku": "SKU-102-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_53262",
+    "nombre": "Chaquetón Qui HeavyCult",
+    "sku": "SKU-344-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_96587",
+    "nombre": "Botas Itaque HeavyCult",
+    "sku": "SKU-469-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_47783",
+    "nombre": "Morral Sed HeavyCult",
+    "sku": "SKU-133-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_30748",
+    "nombre": "Chaquetón Quaerat HeavyCult",
+    "sku": "SKU-368-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_32235",
+    "nombre": "Chaquetón Dicta HeavyCult",
+    "sku": "SKU-496-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_81428",
+    "nombre": "Chaquetón Beatae HeavyCult",
+    "sku": "SKU-417-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_62434",
+    "nombre": "Chaquetón Velit HeavyCult",
+    "sku": "SKU-65-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_33931",
+    "nombre": "Camiseta Saepe HeavyCult",
+    "sku": "SKU-443-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_82014",
+    "nombre": "Botas Mollitia HeavyCult",
+    "sku": "SKU-126-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_62071",
+    "nombre": "Botas Libero HeavyCult",
+    "sku": "SKU-291-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_25314",
+    "nombre": "Botas Dignissimos HeavyCult",
+    "sku": "SKU-339-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_60909",
+    "nombre": "Chaquetón Beatae HeavyCult",
+    "sku": "SKU-16-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_41183",
+    "nombre": "Camiseta Harum HeavyCult",
+    "sku": "SKU-79-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_20172",
+    "nombre": "Botas Accusamus HeavyCult",
+    "sku": "SKU-376-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_16259",
+    "nombre": "Botas Ipsum HeavyCult",
+    "sku": "SKU-341-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_60805",
+    "nombre": "Morral Voluptates HeavyCult",
+    "sku": "SKU-416-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_80538",
+    "nombre": "Camiseta Dignissimos HeavyCult",
+    "sku": "SKU-12-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_91810",
+    "nombre": "Chaquetón Atque HeavyCult",
+    "sku": "SKU-351-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_26735",
+    "nombre": "Botas Magni HeavyCult",
+    "sku": "SKU-485-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_27368",
+    "nombre": "Camiseta Consequatur HeavyCult",
+    "sku": "SKU-442-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_60513",
+    "nombre": "Botas Repudiandae HeavyCult",
+    "sku": "SKU-57-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_82651",
+    "nombre": "Camiseta Aliquid HeavyCult",
+    "sku": "SKU-287-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_92087",
+    "nombre": "Chaquetón Non HeavyCult",
+    "sku": "SKU-438-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_68565",
+    "nombre": "Camiseta Fugit HeavyCult",
+    "sku": "SKU-27-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_39650",
+    "nombre": "Botas Ab HeavyCult",
+    "sku": "SKU-455-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_47077",
+    "nombre": "Chaquetón Adipisci HeavyCult",
+    "sku": "SKU-388-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_20521",
+    "nombre": "Chaquetón Veritatis HeavyCult",
+    "sku": "SKU-122-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_10965",
+    "nombre": "Chaquetón Voluptatum HeavyCult",
+    "sku": "SKU-81-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_24669",
+    "nombre": "Chaquetón Quo HeavyCult",
+    "sku": "SKU-460-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_12876",
+    "nombre": "Morral Molestias HeavyCult",
+    "sku": "SKU-227-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_32341",
+    "nombre": "Morral Ipsa HeavyCult",
+    "sku": "SKU-188-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_85342",
+    "nombre": "Botas Accusamus HeavyCult",
+    "sku": "SKU-458-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_19714",
+    "nombre": "Camiseta Perspiciatis HeavyCult",
+    "sku": "SKU-118-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_12372",
+    "nombre": "Chaquetón Optio HeavyCult",
+    "sku": "SKU-95-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_86615",
+    "nombre": "Chaquetón Eligendi HeavyCult",
+    "sku": "SKU-44-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_69556",
+    "nombre": "Botas Cupiditate HeavyCult",
+    "sku": "SKU-293-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_81385",
+    "nombre": "Camiseta Nemo HeavyCult",
+    "sku": "SKU-47-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_27404",
+    "nombre": "Chaquetón Vel HeavyCult",
+    "sku": "SKU-445-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_30912",
+    "nombre": "Botas Quasi HeavyCult",
+    "sku": "SKU-26-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_14854",
+    "nombre": "Botas Quo HeavyCult",
+    "sku": "SKU-136-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_93504",
+    "nombre": "Morral Nesciunt HeavyCult",
+    "sku": "SKU-318-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_48589",
+    "nombre": "Morral Neque HeavyCult",
+    "sku": "SKU-281-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_77446",
+    "nombre": "Chaquetón Nihil HeavyCult",
+    "sku": "SKU-199-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_29193",
+    "nombre": "Botas Perferendis HeavyCult",
+    "sku": "SKU-56-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_24103",
+    "nombre": "Camiseta Tenetur HeavyCult",
+    "sku": "SKU-222-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_55069",
+    "nombre": "Morral Enim HeavyCult",
+    "sku": "SKU-96-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_90292",
+    "nombre": "Chaquetón Cupiditate HeavyCult",
+    "sku": "SKU-478-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_71023",
+    "nombre": "Camiseta Quos HeavyCult",
+    "sku": "SKU-31-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_37895",
+    "nombre": "Botas Pariatur HeavyCult",
+    "sku": "SKU-114-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_81314",
+    "nombre": "Chaquetón Tempore HeavyCult",
+    "sku": "SKU-205-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_82734",
+    "nombre": "Camiseta Unde HeavyCult",
+    "sku": "SKU-412-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_87421",
+    "nombre": "Camiseta Sapiente HeavyCult",
+    "sku": "SKU-353-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_13220",
+    "nombre": "Chaquetón Iusto HeavyCult",
+    "sku": "SKU-489-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_98695",
+    "nombre": "Camiseta Et HeavyCult",
+    "sku": "SKU-73-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_33248",
+    "nombre": "Camiseta Rem HeavyCult",
+    "sku": "SKU-398-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_67943",
+    "nombre": "Morral Repudiandae HeavyCult",
+    "sku": "SKU-34-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_56861",
+    "nombre": "Camiseta Consequatur HeavyCult",
+    "sku": "SKU-183-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_19969",
+    "nombre": "Botas Illum HeavyCult",
+    "sku": "SKU-14-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_25705",
+    "nombre": "Camiseta Impedit HeavyCult",
+    "sku": "SKU-400-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_31138",
+    "nombre": "Morral Tempora HeavyCult",
+    "sku": "SKU-195-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_51540",
+    "nombre": "Botas Molestias HeavyCult",
+    "sku": "SKU-138-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_10361",
+    "nombre": "Camiseta Sequi HeavyCult",
+    "sku": "SKU-156-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_18242",
+    "nombre": "Botas Ut HeavyCult",
+    "sku": "SKU-196-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_50809",
+    "nombre": "Chaquetón Quis HeavyCult",
+    "sku": "SKU-468-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_91981",
+    "nombre": "Camiseta Culpa HeavyCult",
+    "sku": "SKU-168-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_92500",
+    "nombre": "Camiseta Molestias HeavyCult",
+    "sku": "SKU-124-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_37707",
+    "nombre": "Chaquetón Porro HeavyCult",
+    "sku": "SKU-220-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_76284",
+    "nombre": "Botas Similique HeavyCult",
+    "sku": "SKU-22-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_95753",
+    "nombre": "Morral Sit HeavyCult",
+    "sku": "SKU-194-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_10790",
+    "nombre": "Morral Quam HeavyCult",
+    "sku": "SKU-85-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_85624",
+    "nombre": "Morral Libero HeavyCult",
+    "sku": "SKU-430-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_32167",
+    "nombre": "Chaquetón Dolorum HeavyCult",
+    "sku": "SKU-193-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_56238",
+    "nombre": "Botas Distinctio HeavyCult",
+    "sku": "SKU-191-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_56272",
+    "nombre": "Camiseta Ipsum HeavyCult",
+    "sku": "SKU-121-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_16567",
+    "nombre": "Morral Occaecati HeavyCult",
+    "sku": "SKU-426-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_20593",
+    "nombre": "Chaquetón Sequi HeavyCult",
+    "sku": "SKU-176-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_78448",
+    "nombre": "Camiseta Sed HeavyCult",
+    "sku": "SKU-405-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_54775",
+    "nombre": "Camiseta Dolorum HeavyCult",
+    "sku": "SKU-419-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_62875",
+    "nombre": "Botas Doloremque HeavyCult",
+    "sku": "SKU-321-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_70743",
+    "nombre": "Camiseta Accusamus HeavyCult",
+    "sku": "SKU-271-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_67442",
+    "nombre": "Morral Ducimus HeavyCult",
+    "sku": "SKU-422-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_31022",
+    "nombre": "Camiseta Quis HeavyCult",
+    "sku": "SKU-470-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_82817",
+    "nombre": "Morral Tempore HeavyCult",
+    "sku": "SKU-450-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_75220",
+    "nombre": "Chaquetón Nihil HeavyCult",
+    "sku": "SKU-410-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_82647",
+    "nombre": "Morral Fugit HeavyCult",
+    "sku": "SKU-51-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_10067",
+    "nombre": "Chaquetón Eius HeavyCult",
+    "sku": "SKU-173-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_77866",
+    "nombre": "Chaquetón Beatae HeavyCult",
+    "sku": "SKU-198-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_81302",
+    "nombre": "Morral Distinctio HeavyCult",
+    "sku": "SKU-338-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_83761",
+    "nombre": "Morral Quis HeavyCult",
+    "sku": "SKU-164-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_43520",
+    "nombre": "Camiseta Ipsum HeavyCult",
+    "sku": "SKU-372-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_48300",
+    "nombre": "Botas Dolorum HeavyCult",
+    "sku": "SKU-465-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_97234",
+    "nombre": "Botas Earum HeavyCult",
+    "sku": "SKU-415-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_88043",
+    "nombre": "Morral At HeavyCult",
+    "sku": "SKU-15-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_89554",
+    "nombre": "Morral Possimus HeavyCult",
+    "sku": "SKU-106-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_94862",
+    "nombre": "Chaquetón Fuga HeavyCult",
+    "sku": "SKU-396-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_41357",
+    "nombre": "Camiseta Sit HeavyCult",
+    "sku": "SKU-315-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_71815",
+    "nombre": "Chaquetón Autem HeavyCult",
+    "sku": "SKU-473-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_92513",
+    "nombre": "Botas Excepturi HeavyCult",
+    "sku": "SKU-59-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_12497",
+    "nombre": "Camiseta Ex HeavyCult",
+    "sku": "SKU-171-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_51932",
+    "nombre": "Morral Corrupti HeavyCult",
+    "sku": "SKU-229-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_62999",
+    "nombre": "Camiseta Voluptatibus HeavyCult",
+    "sku": "SKU-186-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_45199",
+    "nombre": "Chaquetón Temporibus HeavyCult",
+    "sku": "SKU-302-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_93718",
+    "nombre": "Chaquetón Cum HeavyCult",
+    "sku": "SKU-77-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_76588",
+    "nombre": "Chaquetón Animi HeavyCult",
+    "sku": "SKU-132-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_32581",
+    "nombre": "Chaquetón Aperiam HeavyCult",
+    "sku": "SKU-28-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_27903",
+    "nombre": "Morral Voluptatibus HeavyCult",
+    "sku": "SKU-141-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_98171",
+    "nombre": "Morral Harum HeavyCult",
+    "sku": "SKU-264-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_61989",
+    "nombre": "Camiseta Ratione HeavyCult",
+    "sku": "SKU-479-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_40862",
+    "nombre": "Chaquetón Aut HeavyCult",
+    "sku": "SKU-98-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_79921",
+    "nombre": "Camiseta Ipsum HeavyCult",
+    "sku": "SKU-423-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_24407",
+    "nombre": "Morral Soluta HeavyCult",
+    "sku": "SKU-144-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_36993",
+    "nombre": "Camiseta Eum HeavyCult",
+    "sku": "SKU-33-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_27817",
+    "nombre": "Morral Sapiente HeavyCult",
+    "sku": "SKU-243-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_62499",
+    "nombre": "Chaquetón Modi HeavyCult",
+    "sku": "SKU-377-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_92848",
+    "nombre": "Morral Animi HeavyCult",
+    "sku": "SKU-491-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_60057",
+    "nombre": "Chaquetón Exercitationem HeavyCult",
+    "sku": "SKU-360-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_34812",
+    "nombre": "Morral Dolorem HeavyCult",
+    "sku": "SKU-433-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_14002",
+    "nombre": "Chaquetón Ipsam HeavyCult",
+    "sku": "SKU-174-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_49312",
+    "nombre": "Morral Reprehenderit HeavyCult",
+    "sku": "SKU-250-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_65956",
+    "nombre": "Camiseta Sapiente HeavyCult",
+    "sku": "SKU-153-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_56300",
+    "nombre": "Morral Aliquam HeavyCult",
+    "sku": "SKU-140-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_63465",
+    "nombre": "Botas Quos HeavyCult",
+    "sku": "SKU-288-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_89641",
+    "nombre": "Camiseta Repellendus HeavyCult",
+    "sku": "SKU-54-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_33435",
+    "nombre": "Botas Dolorem HeavyCult",
+    "sku": "SKU-37-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_57884",
+    "nombre": "Camiseta Earum HeavyCult",
+    "sku": "SKU-337-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_12460",
+    "nombre": "Botas Asperiores HeavyCult",
+    "sku": "SKU-90-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_94765",
+    "nombre": "Morral Aliquid HeavyCult",
+    "sku": "SKU-434-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_16513",
+    "nombre": "Camiseta Quia HeavyCult",
+    "sku": "SKU-490-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_40996",
+    "nombre": "Chaquetón Omnis HeavyCult",
+    "sku": "SKU-167-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_31755",
+    "nombre": "Chaquetón Distinctio HeavyCult",
+    "sku": "SKU-483-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_21941",
+    "nombre": "Botas Officia HeavyCult",
+    "sku": "SKU-46-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_92383",
+    "nombre": "Morral Ipsam HeavyCult",
+    "sku": "SKU-466-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_66026",
+    "nombre": "Camiseta Quia HeavyCult",
+    "sku": "SKU-75-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_85502",
+    "nombre": "Chaquetón Id HeavyCult",
+    "sku": "SKU-204-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_13847",
+    "nombre": "Botas Eveniet HeavyCult",
+    "sku": "SKU-387-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_59377",
+    "nombre": "Botas At HeavyCult",
+    "sku": "SKU-213-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_27096",
+    "nombre": "Chaquetón Odit HeavyCult",
+    "sku": "SKU-356-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_30474",
+    "nombre": "Camiseta Dicta HeavyCult",
+    "sku": "SKU-251-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_80961",
+    "nombre": "Camiseta Minima HeavyCult",
+    "sku": "SKU-60-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_53421",
+    "nombre": "Camiseta Quod HeavyCult",
+    "sku": "SKU-10-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_47921",
+    "nombre": "Botas Corporis HeavyCult",
+    "sku": "SKU-392-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_35275",
+    "nombre": "Camiseta Deleniti HeavyCult",
+    "sku": "SKU-247-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_56938",
+    "nombre": "Morral Enim HeavyCult",
+    "sku": "SKU-244-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_61352",
+    "nombre": "Morral Quaerat HeavyCult",
+    "sku": "SKU-24-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_68906",
+    "nombre": "Morral Necessitatibus HeavyCult",
+    "sku": "SKU-309-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_86356",
+    "nombre": "Morral Culpa HeavyCult",
+    "sku": "SKU-286-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_70106",
+    "nombre": "Camiseta Unde HeavyCult",
+    "sku": "SKU-278-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_93945",
+    "nombre": "Camiseta Culpa HeavyCult",
+    "sku": "SKU-55-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_61098",
+    "nombre": "Chaquetón Commodi HeavyCult",
+    "sku": "SKU-369-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_27489",
+    "nombre": "Botas Dolor HeavyCult",
+    "sku": "SKU-322-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_40490",
+    "nombre": "Chaquetón Consequatur HeavyCult",
+    "sku": "SKU-346-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_95901",
+    "nombre": "Morral Amet HeavyCult",
+    "sku": "SKU-462-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_53729",
+    "nombre": "Botas Culpa HeavyCult",
+    "sku": "SKU-203-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_66696",
+    "nombre": "Morral Ipsam HeavyCult",
+    "sku": "SKU-20-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_49343",
+    "nombre": "Botas Eveniet HeavyCult",
+    "sku": "SKU-165-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_72485",
+    "nombre": "Camiseta Accusantium HeavyCult",
+    "sku": "SKU-151-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_29632",
+    "nombre": "Camiseta Sint HeavyCult",
+    "sku": "SKU-38-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_64421",
+    "nombre": "Camiseta Rem HeavyCult",
+    "sku": "SKU-277-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_41203",
+    "nombre": "Morral Doloribus HeavyCult",
+    "sku": "SKU-403-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_43091",
+    "nombre": "Botas Ratione HeavyCult",
+    "sku": "SKU-17-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_91536",
+    "nombre": "Camiseta Quisquam HeavyCult",
+    "sku": "SKU-327-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_24673",
+    "nombre": "Camiseta Necessitatibus HeavyCult",
+    "sku": "SKU-88-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_52775",
+    "nombre": "Chaquetón Quam HeavyCult",
+    "sku": "SKU-414-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_20407",
+    "nombre": "Morral Ipsa HeavyCult",
+    "sku": "SKU-493-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_58632",
+    "nombre": "Botas Iusto HeavyCult",
+    "sku": "SKU-316-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_74811",
+    "nombre": "Botas Alias HeavyCult",
+    "sku": "SKU-374-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_43322",
+    "nombre": "Botas Quo HeavyCult",
+    "sku": "SKU-300-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_82179",
+    "nombre": "Camiseta Sint HeavyCult",
+    "sku": "SKU-357-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_85992",
+    "nombre": "Morral Temporibus HeavyCult",
+    "sku": "SKU-305-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_87433",
+    "nombre": "Botas Excepturi HeavyCult",
+    "sku": "SKU-161-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_43202",
+    "nombre": "Camiseta Consequatur HeavyCult",
+    "sku": "SKU-474-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_59303",
+    "nombre": "Morral Deleniti HeavyCult",
+    "sku": "SKU-260-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_89076",
+    "nombre": "Chaquetón Voluptatum HeavyCult",
+    "sku": "SKU-239-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_45184",
+    "nombre": "Botas Exercitationem HeavyCult",
+    "sku": "SKU-48-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_23896",
+    "nombre": "Morral Nihil HeavyCult",
+    "sku": "SKU-267-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_14684",
+    "nombre": "Camiseta Modi HeavyCult",
+    "sku": "SKU-367-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_54304",
+    "nombre": "Morral Quod HeavyCult",
+    "sku": "SKU-312-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_89222",
+    "nombre": "Camiseta Qui HeavyCult",
+    "sku": "SKU-362-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_81591",
+    "nombre": "Camiseta Soluta HeavyCult",
+    "sku": "SKU-364-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_54563",
+    "nombre": "Camiseta At HeavyCult",
+    "sku": "SKU-84-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_55975",
+    "nombre": "Chaquetón Dolorem HeavyCult",
+    "sku": "SKU-340-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_72994",
+    "nombre": "Morral Veritatis HeavyCult",
+    "sku": "SKU-231-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_84087",
+    "nombre": "Camiseta Provident HeavyCult",
+    "sku": "SKU-137-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_86643",
+    "nombre": "Chaquetón Autem HeavyCult",
+    "sku": "SKU-397-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_50302",
+    "nombre": "Morral Quaerat HeavyCult",
+    "sku": "SKU-499-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_28080",
+    "nombre": "Morral Illo HeavyCult",
+    "sku": "SKU-245-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_86768",
+    "nombre": "Morral Ducimus HeavyCult",
+    "sku": "SKU-242-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_23060",
+    "nombre": "Camiseta Voluptatibus HeavyCult",
+    "sku": "SKU-383-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_98911",
+    "nombre": "Camiseta Temporibus HeavyCult",
+    "sku": "SKU-18-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_21477",
+    "nombre": "Chaquetón Ratione HeavyCult",
+    "sku": "SKU-214-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_68798",
+    "nombre": "Chaquetón Consequuntur HeavyCult",
+    "sku": "SKU-437-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_38367",
+    "nombre": "Camiseta Tempore HeavyCult",
+    "sku": "SKU-432-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_58280",
+    "nombre": "Camiseta Magnam HeavyCult",
+    "sku": "SKU-314-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_61611",
+    "nombre": "Botas Dolorum HeavyCult",
+    "sku": "SKU-270-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_50957",
+    "nombre": "Morral Amet HeavyCult",
+    "sku": "SKU-53-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_45565",
+    "nombre": "Morral Sint HeavyCult",
+    "sku": "SKU-323-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_19884",
+    "nombre": "Chaquetón Animi HeavyCult",
+    "sku": "SKU-215-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_84366",
+    "nombre": "Morral Quibusdam HeavyCult",
+    "sku": "SKU-282-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_78694",
+    "nombre": "Botas Incidunt HeavyCult",
+    "sku": "SKU-230-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_10004",
+    "nombre": "Camiseta Sint HeavyCult",
+    "sku": "SKU-104-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_10500",
+    "nombre": "Morral Incidunt HeavyCult",
+    "sku": "SKU-475-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_98399",
+    "nombre": "Camiseta Esse HeavyCult",
+    "sku": "SKU-301-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_50975",
+    "nombre": "Camiseta Saepe HeavyCult",
+    "sku": "SKU-265-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_87643",
+    "nombre": "Chaquetón Ullam HeavyCult",
+    "sku": "SKU-317-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_20544",
+    "nombre": "Camiseta Occaecati HeavyCult",
+    "sku": "SKU-495-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_92020",
+    "nombre": "Chaquetón Libero HeavyCult",
+    "sku": "SKU-9-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_85521",
+    "nombre": "Camiseta Nihil HeavyCult",
+    "sku": "SKU-78-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_57018",
+    "nombre": "Camiseta Rerum HeavyCult",
+    "sku": "SKU-418-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_59851",
+    "nombre": "Camiseta Eveniet HeavyCult",
+    "sku": "SKU-180-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_63019",
+    "nombre": "Botas Ipsum HeavyCult",
+    "sku": "SKU-328-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_65655",
+    "nombre": "Botas Nobis HeavyCult",
+    "sku": "SKU-208-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_31923",
+    "nombre": "Chaquetón Possimus HeavyCult",
+    "sku": "SKU-319-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_72486",
+    "nombre": "Camiseta Expedita HeavyCult",
+    "sku": "SKU-185-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_48329",
+    "nombre": "Camiseta Eius HeavyCult",
+    "sku": "SKU-477-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_40355",
+    "nombre": "Chaquetón Ipsam HeavyCult",
+    "sku": "SKU-223-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_69778",
+    "nombre": "Camiseta Corporis HeavyCult",
+    "sku": "SKU-259-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_65767",
+    "nombre": "Botas Ex HeavyCult",
+    "sku": "SKU-292-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_40166",
+    "nombre": "Chaquetón Aspernatur HeavyCult",
+    "sku": "SKU-235-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_94872",
+    "nombre": "Botas Reiciendis HeavyCult",
+    "sku": "SKU-25-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_31238",
+    "nombre": "Morral Inventore HeavyCult",
+    "sku": "SKU-310-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_57628",
+    "nombre": "Chaquetón Ratione HeavyCult",
+    "sku": "SKU-258-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_41187",
+    "nombre": "Camiseta Maxime HeavyCult",
+    "sku": "SKU-262-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_26040",
+    "nombre": "Camiseta Quibusdam HeavyCult",
+    "sku": "SKU-111-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_66753",
+    "nombre": "Chaquetón Tempore HeavyCult",
+    "sku": "SKU-30-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_44831",
+    "nombre": "Morral Minima HeavyCult",
+    "sku": "SKU-158-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_17768",
+    "nombre": "Chaquetón Veritatis HeavyCult",
+    "sku": "SKU-363-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_48456",
+    "nombre": "Chaquetón Quas HeavyCult",
+    "sku": "SKU-105-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_82877",
+    "nombre": "Camiseta Placeat HeavyCult",
+    "sku": "SKU-80-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_87757",
+    "nombre": "Camiseta Ea HeavyCult",
+    "sku": "SKU-187-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_86677",
+    "nombre": "Botas Inventore HeavyCult",
+    "sku": "SKU-11-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_54354",
+    "nombre": "Camiseta Cupiditate HeavyCult",
+    "sku": "SKU-21-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_85016",
+    "nombre": "Chaquetón Nihil HeavyCult",
+    "sku": "SKU-228-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_82252",
+    "nombre": "Camiseta Quo HeavyCult",
+    "sku": "SKU-294-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_91719",
+    "nombre": "Chaquetón Modi HeavyCult",
+    "sku": "SKU-498-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_73390",
+    "nombre": "Morral Consectetur HeavyCult",
+    "sku": "SKU-280-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_99655",
+    "nombre": "Botas Quas HeavyCult",
+    "sku": "SKU-23-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_78774",
+    "nombre": "Morral Temporibus HeavyCult",
+    "sku": "SKU-232-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_42917",
+    "nombre": "Camiseta Sit HeavyCult",
+    "sku": "SKU-169-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_24292",
+    "nombre": "Morral Impedit HeavyCult",
+    "sku": "SKU-297-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_14563",
+    "nombre": "Botas Commodi HeavyCult",
+    "sku": "SKU-181-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_70843",
+    "nombre": "Camiseta Est HeavyCult",
+    "sku": "SKU-395-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_98869",
+    "nombre": "Chaquetón Praesentium HeavyCult",
+    "sku": "SKU-354-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_34955",
+    "nombre": "Morral Officia HeavyCult",
+    "sku": "SKU-170-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_81306",
+    "nombre": "Morral Optio HeavyCult",
+    "sku": "SKU-217-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_94150",
+    "nombre": "Chaquetón Sit HeavyCult",
+    "sku": "SKU-6-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_85056",
+    "nombre": "Chaquetón Fugiat HeavyCult",
+    "sku": "SKU-83-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_15465",
+    "nombre": "Botas Voluptates HeavyCult",
+    "sku": "SKU-92-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_81111",
+    "nombre": "Chaquetón Natus HeavyCult",
+    "sku": "SKU-39-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_26064",
+    "nombre": "Botas Labore HeavyCult",
+    "sku": "SKU-481-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_19877",
+    "nombre": "Camiseta Labore HeavyCult",
+    "sku": "SKU-311-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_56842",
+    "nombre": "Chaquetón Eos HeavyCult",
+    "sku": "SKU-35-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_19559",
+    "nombre": "Morral Accusamus HeavyCult",
+    "sku": "SKU-476-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_22791",
+    "nombre": "Botas Officiis HeavyCult",
+    "sku": "SKU-43-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_15234",
+    "nombre": "Botas Corrupti HeavyCult",
+    "sku": "SKU-366-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_59489",
+    "nombre": "Camiseta Similique HeavyCult",
+    "sku": "SKU-209-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_88423",
+    "nombre": "Camiseta Minima HeavyCult",
+    "sku": "SKU-224-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_77779",
+    "nombre": "Morral Ipsam HeavyCult",
+    "sku": "SKU-148-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_97565",
+    "nombre": "Morral Debitis HeavyCult",
+    "sku": "SKU-175-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_76472",
+    "nombre": "Morral Inventore HeavyCult",
+    "sku": "SKU-444-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_46146",
+    "nombre": "Morral Quas HeavyCult",
+    "sku": "SKU-112-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_93516",
+    "nombre": "Morral Natus HeavyCult",
+    "sku": "SKU-147-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_38747",
+    "nombre": "Morral Inventore HeavyCult",
+    "sku": "SKU-179-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_85571",
+    "nombre": "Camiseta Hic HeavyCult",
+    "sku": "SKU-40-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_46274",
+    "nombre": "Chaquetón Labore HeavyCult",
+    "sku": "SKU-135-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_33166",
+    "nombre": "Camiseta Repudiandae HeavyCult",
+    "sku": "SKU-97-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_29579",
+    "nombre": "Chaquetón Iste HeavyCult",
+    "sku": "SKU-87-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_37174",
+    "nombre": "Chaquetón Sint HeavyCult",
+    "sku": "SKU-313-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_40272",
+    "nombre": "Botas Occaecati HeavyCult",
+    "sku": "SKU-19-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_83149",
+    "nombre": "Camiseta Deserunt HeavyCult",
+    "sku": "SKU-290-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_88822",
+    "nombre": "Chaquetón Consequatur HeavyCult",
+    "sku": "SKU-45-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_43140",
+    "nombre": "Morral Corrupti HeavyCult",
+    "sku": "SKU-487-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_85147",
+    "nombre": "Chaquetón Reprehenderit HeavyCult",
+    "sku": "SKU-3-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_84886",
+    "nombre": "Morral Atque HeavyCult",
+    "sku": "SKU-482-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_96735",
+    "nombre": "Botas Consectetur HeavyCult",
+    "sku": "SKU-355-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_35822",
+    "nombre": "Camiseta Reprehenderit HeavyCult",
+    "sku": "SKU-157-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_57736",
+    "nombre": "Morral Esse HeavyCult",
+    "sku": "SKU-166-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_23147",
+    "nombre": "Morral Exercitationem HeavyCult",
+    "sku": "SKU-435-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_13423",
+    "nombre": "Botas Perspiciatis HeavyCult",
+    "sku": "SKU-365-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_22126",
+    "nombre": "Camiseta Earum HeavyCult",
+    "sku": "SKU-139-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_45980",
+    "nombre": "Chaquetón Rem HeavyCult",
+    "sku": "SKU-454-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_67603",
+    "nombre": "Botas Facere HeavyCult",
+    "sku": "SKU-409-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_71990",
+    "nombre": "Morral Non HeavyCult",
+    "sku": "SKU-101-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_24874",
+    "nombre": "Botas Tenetur HeavyCult",
+    "sku": "SKU-154-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_16993",
+    "nombre": "Chaquetón Et HeavyCult",
+    "sku": "SKU-145-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_30148",
+    "nombre": "Chaquetón Aperiam HeavyCult",
+    "sku": "SKU-64-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_89507",
+    "nombre": "Camiseta Error HeavyCult",
+    "sku": "SKU-331-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_93535",
+    "nombre": "Morral Tenetur HeavyCult",
+    "sku": "SKU-273-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_63290",
+    "nombre": "Chaquetón Nesciunt HeavyCult",
+    "sku": "SKU-295-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_26866",
+    "nombre": "Botas Alias HeavyCult",
+    "sku": "SKU-448-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_78542",
+    "nombre": "Chaquetón Sunt HeavyCult",
+    "sku": "SKU-52-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_81130",
+    "nombre": "Botas Reprehenderit HeavyCult",
+    "sku": "SKU-255-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_79647",
+    "nombre": "Botas Officiis HeavyCult",
+    "sku": "SKU-61-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_49711",
+    "nombre": "Morral Illo HeavyCult",
+    "sku": "SKU-117-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_49912",
+    "nombre": "Camiseta Iste HeavyCult",
+    "sku": "SKU-248-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_43578",
+    "nombre": "Morral Dolore HeavyCult",
+    "sku": "SKU-461-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_41504",
+    "nombre": "Botas Maiores HeavyCult",
+    "sku": "SKU-49-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_65709",
+    "nombre": "Botas Id HeavyCult",
+    "sku": "SKU-420-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_74299",
+    "nombre": "Camiseta Ipsum HeavyCult",
+    "sku": "SKU-71-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_73938",
+    "nombre": "Chaquetón Suscipit HeavyCult",
+    "sku": "SKU-350-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_91201",
+    "nombre": "Morral Accusantium HeavyCult",
+    "sku": "SKU-342-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_90771",
+    "nombre": "Morral Perferendis HeavyCult",
+    "sku": "SKU-306-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_51935",
+    "nombre": "Morral Perspiciatis HeavyCult",
+    "sku": "SKU-177-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_66003",
+    "nombre": "Botas Voluptatum HeavyCult",
+    "sku": "SKU-67-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_98423",
+    "nombre": "Morral Eaque HeavyCult",
+    "sku": "SKU-463-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_50160",
+    "nombre": "Morral Non HeavyCult",
+    "sku": "SKU-146-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_22058",
+    "nombre": "Chaquetón Autem HeavyCult",
+    "sku": "SKU-159-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_76340",
+    "nombre": "Chaquetón Aut HeavyCult",
+    "sku": "SKU-279-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_94268",
+    "nombre": "Camiseta Voluptatibus HeavyCult",
+    "sku": "SKU-142-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_79351",
+    "nombre": "Botas Sapiente HeavyCult",
+    "sku": "SKU-390-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_61725",
+    "nombre": "Chaquetón Facilis HeavyCult",
+    "sku": "SKU-303-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_16243",
+    "nombre": "Botas Laborum HeavyCult",
+    "sku": "SKU-91-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_79690",
+    "nombre": "Morral Repudiandae HeavyCult",
+    "sku": "SKU-99-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_62125",
+    "nombre": "Morral Laboriosam HeavyCult",
+    "sku": "SKU-436-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_90440",
+    "nombre": "Morral Aspernatur HeavyCult",
+    "sku": "SKU-375-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_80408",
+    "nombre": "Botas Doloremque HeavyCult",
+    "sku": "SKU-343-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_45703",
+    "nombre": "Chaquetón Eos HeavyCult",
+    "sku": "SKU-497-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_89609",
+    "nombre": "Chaquetón Nemo HeavyCult",
+    "sku": "SKU-252-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_77210",
+    "nombre": "Botas Quas HeavyCult",
+    "sku": "SKU-184-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_58187",
+    "nombre": "Chaquetón Sapiente HeavyCult",
+    "sku": "SKU-160-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_28969",
+    "nombre": "Botas Animi HeavyCult",
+    "sku": "SKU-488-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_84175",
+    "nombre": "Botas Iste HeavyCult",
+    "sku": "SKU-125-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_76928",
+    "nombre": "Chaquetón Est HeavyCult",
+    "sku": "SKU-440-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_10276",
+    "nombre": "Botas Dicta HeavyCult",
+    "sku": "SKU-401-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_29704",
+    "nombre": "Morral Officiis HeavyCult",
+    "sku": "SKU-103-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_29097",
+    "nombre": "Morral Ipsam HeavyCult",
+    "sku": "SKU-494-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_26065",
+    "nombre": "Camiseta Mollitia HeavyCult",
+    "sku": "SKU-7-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_47406",
+    "nombre": "Chaquetón Necessitatibus HeavyCult",
+    "sku": "SKU-36-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_27907",
+    "nombre": "Chaquetón Omnis HeavyCult",
+    "sku": "SKU-216-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_11967",
+    "nombre": "Chaquetón Pariatur HeavyCult",
+    "sku": "SKU-333-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_87903",
+    "nombre": "Botas Assumenda HeavyCult",
+    "sku": "SKU-127-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_91859",
+    "nombre": "Chaquetón Amet HeavyCult",
+    "sku": "SKU-439-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_52846",
+    "nombre": "Camiseta Harum HeavyCult",
+    "sku": "SKU-210-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_79100",
+    "nombre": "Camiseta Quia HeavyCult",
+    "sku": "SKU-66-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_58764",
+    "nombre": "Camiseta Vel HeavyCult",
+    "sku": "SKU-240-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_80907",
+    "nombre": "Camiseta Facilis HeavyCult",
+    "sku": "SKU-361-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_19317",
+    "nombre": "Botas Quasi HeavyCult",
+    "sku": "SKU-150-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_28458",
+    "nombre": "Botas Sapiente HeavyCult",
+    "sku": "SKU-197-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_16348",
+    "nombre": "Morral Vitae HeavyCult",
+    "sku": "SKU-69-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_59236",
+    "nombre": "Morral Cumque HeavyCult",
+    "sku": "SKU-428-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_63984",
+    "nombre": "Chaquetón Laudantium HeavyCult",
+    "sku": "SKU-296-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_99559",
+    "nombre": "Chaquetón Totam HeavyCult",
+    "sku": "SKU-492-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_15001",
+    "nombre": "Morral Ab HeavyCult",
+    "sku": "SKU-421-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_63985",
+    "nombre": "Botas Exercitationem HeavyCult",
+    "sku": "SKU-221-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_10734",
+    "nombre": "Botas Delectus HeavyCult",
+    "sku": "SKU-382-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_27842",
+    "nombre": "Chaquetón Quos HeavyCult",
+    "sku": "SKU-456-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_29525",
+    "nombre": "Camiseta Aspernatur HeavyCult",
+    "sku": "SKU-283-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_45750",
+    "nombre": "Morral Quasi HeavyCult",
+    "sku": "SKU-348-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_21978",
+    "nombre": "Chaquetón Illum HeavyCult",
+    "sku": "SKU-5-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_20943",
+    "nombre": "Camiseta Libero HeavyCult",
+    "sku": "SKU-425-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_14538",
+    "nombre": "Camiseta Reiciendis HeavyCult",
+    "sku": "SKU-393-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_20886",
+    "nombre": "Botas Ratione HeavyCult",
+    "sku": "SKU-380-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_20987",
+    "nombre": "Botas Dignissimos HeavyCult",
+    "sku": "SKU-324-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_17151",
+    "nombre": "Camiseta Est HeavyCult",
+    "sku": "SKU-201-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_81839",
+    "nombre": "Camiseta Sint HeavyCult",
+    "sku": "SKU-108-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_86451",
+    "nombre": "Camiseta Suscipit HeavyCult",
+    "sku": "SKU-408-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_42018",
+    "nombre": "Morral Impedit HeavyCult",
+    "sku": "SKU-207-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_81928",
+    "nombre": "Camiseta Voluptatibus HeavyCult",
+    "sku": "SKU-211-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_54460",
+    "nombre": "Camiseta Tempora HeavyCult",
+    "sku": "SKU-269-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_77062",
+    "nombre": "Morral Ipsum HeavyCult",
+    "sku": "SKU-347-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_27748",
+    "nombre": "Botas Voluptas HeavyCult",
+    "sku": "SKU-162-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_78681",
+    "nombre": "Morral Minima HeavyCult",
+    "sku": "SKU-246-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_64083",
+    "nombre": "Camiseta Iure HeavyCult",
+    "sku": "SKU-268-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_12016",
+    "nombre": "Chaquetón Ipsa HeavyCult",
+    "sku": "SKU-289-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_16631",
+    "nombre": "Morral Accusantium HeavyCult",
+    "sku": "SKU-457-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_66996",
+    "nombre": "Camiseta Quod HeavyCult",
+    "sku": "SKU-459-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_95287",
+    "nombre": "Camiseta Beatae HeavyCult",
+    "sku": "SKU-202-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_23130",
+    "nombre": "Morral Tempore HeavyCult",
+    "sku": "SKU-76-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_87181",
+    "nombre": "Camiseta Asperiores HeavyCult",
+    "sku": "SKU-13-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_40808",
+    "nombre": "Camiseta Velit HeavyCult",
+    "sku": "SKU-446-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_37596",
+    "nombre": "Chaquetón Pariatur HeavyCult",
+    "sku": "SKU-50-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_65389",
+    "nombre": "Chaquetón Tenetur HeavyCult",
+    "sku": "SKU-110-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_98679",
+    "nombre": "Camiseta Voluptatum HeavyCult",
+    "sku": "SKU-62-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_39924",
+    "nombre": "Chaquetón Similique HeavyCult",
+    "sku": "SKU-254-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_85519",
+    "nombre": "Chaquetón Modi HeavyCult",
+    "sku": "SKU-352-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_58935",
+    "nombre": "Chaquetón Deleniti HeavyCult",
+    "sku": "SKU-449-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_74992",
+    "nombre": "Botas Doloribus HeavyCult",
+    "sku": "SKU-275-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_95396",
+    "nombre": "Chaquetón Quia HeavyCult",
+    "sku": "SKU-453-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_68216",
+    "nombre": "Botas Labore HeavyCult",
+    "sku": "SKU-128-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_27957",
+    "nombre": "Camiseta Voluptates HeavyCult",
+    "sku": "SKU-467-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_30101",
+    "nombre": "Botas Facilis HeavyCult",
+    "sku": "SKU-389-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_79059",
+    "nombre": "Morral Mollitia HeavyCult",
+    "sku": "SKU-93-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_94047",
+    "nombre": "Chaquetón Optio HeavyCult",
+    "sku": "SKU-116-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_72220",
+    "nombre": "Botas Aperiam HeavyCult",
+    "sku": "SKU-119-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_96157",
+    "nombre": "Chaquetón Placeat HeavyCult",
+    "sku": "SKU-335-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_18517",
+    "nombre": "Camiseta Architecto HeavyCult",
+    "sku": "SKU-192-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_83741",
+    "nombre": "Botas Totam HeavyCult",
+    "sku": "SKU-189-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_44282",
+    "nombre": "Camiseta Nostrum HeavyCult",
+    "sku": "SKU-131-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_64181",
+    "nombre": "Botas Id HeavyCult",
+    "sku": "SKU-480-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_33277",
+    "nombre": "Morral Expedita HeavyCult",
+    "sku": "SKU-263-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_39779",
+    "nombre": "Morral Placeat HeavyCult",
+    "sku": "SKU-109-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_61083",
+    "nombre": "Botas Consequuntur HeavyCult",
+    "sku": "SKU-304-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_49550",
+    "nombre": "Morral Excepturi HeavyCult",
+    "sku": "SKU-0-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_10892",
+    "nombre": "Chaquetón Porro HeavyCult",
+    "sku": "SKU-266-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_55629",
+    "nombre": "Morral Atque HeavyCult",
+    "sku": "SKU-326-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_65060",
+    "nombre": "Chaquetón A HeavyCult",
+    "sku": "SKU-308-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_53395",
+    "nombre": "Botas Facilis HeavyCult",
+    "sku": "SKU-134-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_71490",
+    "nombre": "Botas Quod HeavyCult",
+    "sku": "SKU-299-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_67956",
+    "nombre": "Chaquetón Amet HeavyCult",
+    "sku": "SKU-8-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_83469",
+    "nombre": "Botas Libero HeavyCult",
+    "sku": "SKU-238-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_15710",
+    "nombre": "Camiseta Deleniti HeavyCult",
+    "sku": "SKU-370-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_70830",
+    "nombre": "Camiseta Eaque HeavyCult",
+    "sku": "SKU-182-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_89157",
+    "nombre": "Botas Ab HeavyCult",
+    "sku": "SKU-212-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_20355",
+    "nombre": "Camiseta Explicabo HeavyCult",
+    "sku": "SKU-1-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_27114",
+    "nombre": "Botas Ab HeavyCult",
+    "sku": "SKU-256-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_81781",
+    "nombre": "Morral Perferendis HeavyCult",
+    "sku": "SKU-406-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_52386",
+    "nombre": "Chaquetón Voluptatem HeavyCult",
+    "sku": "SKU-402-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_81407",
+    "nombre": "Morral Debitis HeavyCult",
+    "sku": "SKU-471-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_56104",
+    "nombre": "Camiseta Sit HeavyCult",
+    "sku": "SKU-86-M",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_73370",
+    "nombre": "Camiseta Harum HeavyCult",
+    "sku": "SKU-58-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_90483",
+    "nombre": "Morral Qui HeavyCult",
+    "sku": "SKU-407-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_31126",
+    "nombre": "Botas Quidem HeavyCult",
+    "sku": "SKU-332-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_46724",
+    "nombre": "Botas Nemo HeavyCult",
+    "sku": "SKU-68-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_14446",
+    "nombre": "Botas Modi HeavyCult",
+    "sku": "SKU-320-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_73717",
+    "nombre": "Botas Id HeavyCult",
+    "sku": "SKU-107-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_59307",
+    "nombre": "Camiseta Earum HeavyCult",
+    "sku": "SKU-74-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_30181",
+    "nombre": "Camiseta Eos HeavyCult",
+    "sku": "SKU-384-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_65303",
+    "nombre": "Chaquetón Aliquid HeavyCult",
+    "sku": "SKU-2-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_82491",
+    "nombre": "Camiseta Quis HeavyCult",
+    "sku": "SKU-190-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_12215",
+    "nombre": "Camiseta Sapiente HeavyCult",
+    "sku": "SKU-241-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_42268",
+    "nombre": "Morral Reiciendis HeavyCult",
+    "sku": "SKU-378-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_43839",
+    "nombre": "Morral Eveniet HeavyCult",
+    "sku": "SKU-100-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_51359",
+    "nombre": "Botas Nihil HeavyCult",
+    "sku": "SKU-253-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_55064",
+    "nombre": "Morral Maxime HeavyCult",
+    "sku": "SKU-70-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_27736",
+    "nombre": "Morral Unde HeavyCult",
+    "sku": "SKU-226-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_85680",
+    "nombre": "Camiseta Debitis HeavyCult",
+    "sku": "SKU-120-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_86248",
+    "nombre": "Chaquetón Inventore HeavyCult",
+    "sku": "SKU-399-M",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_40096",
+    "nombre": "Camiseta Animi HeavyCult",
+    "sku": "SKU-486-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_29441",
+    "nombre": "Chaquetón Laborum HeavyCult",
+    "sku": "SKU-149-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_17551",
+    "nombre": "Morral Totam HeavyCult",
+    "sku": "SKU-41-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_61296",
+    "nombre": "Chaquetón Quasi HeavyCult",
+    "sku": "SKU-451-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_64914",
+    "nombre": "Camiseta Fugit HeavyCult",
+    "sku": "SKU-404-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_94608",
+    "nombre": "Camiseta Exercitationem HeavyCult",
+    "sku": "SKU-447-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_97833",
+    "nombre": "Chaquetón Error HeavyCult",
+    "sku": "SKU-236-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_53131",
+    "nombre": "Morral Itaque HeavyCult",
+    "sku": "SKU-82-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_81844",
+    "nombre": "Camiseta Iste HeavyCult",
+    "sku": "SKU-381-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_29280",
+    "nombre": "Botas Quo HeavyCult",
+    "sku": "SKU-94-S",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_98414",
+    "nombre": "Chaquetón Distinctio HeavyCult",
+    "sku": "SKU-225-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_27309",
+    "nombre": "Botas Maiores HeavyCult",
+    "sku": "SKU-178-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_60045",
+    "nombre": "Botas Aut HeavyCult",
+    "sku": "SKU-358-S",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_96454",
+    "nombre": "Chaquetón Placeat HeavyCult",
+    "sku": "SKU-427-L",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_66766",
+    "nombre": "Chaquetón Libero HeavyCult",
+    "sku": "SKU-218-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_93090",
+    "nombre": "Chaquetón Minima HeavyCult",
+    "sku": "SKU-200-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_27398",
+    "nombre": "Chaquetón Magni HeavyCult",
+    "sku": "SKU-172-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_39693",
+    "nombre": "Camiseta Voluptas HeavyCult",
+    "sku": "SKU-89-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_40721",
+    "nombre": "Botas Praesentium HeavyCult",
+    "sku": "SKU-371-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_59057",
+    "nombre": "Botas Blanditiis HeavyCult",
+    "sku": "SKU-63-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_21943",
+    "nombre": "Botas Amet HeavyCult",
+    "sku": "SKU-42-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_85018",
+    "nombre": "Botas Voluptates HeavyCult",
+    "sku": "SKU-4-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_47238",
+    "nombre": "Chaquetón Dolore HeavyCult",
+    "sku": "SKU-285-XL",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_23291",
+    "nombre": "Chaquetón Ipsam HeavyCult",
+    "sku": "SKU-163-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_27346",
+    "nombre": "Camiseta Minus HeavyCult",
+    "sku": "SKU-284-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_88367",
+    "nombre": "Morral Culpa HeavyCult",
+    "sku": "SKU-206-M",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_16753",
+    "nombre": "Morral Delectus HeavyCult",
+    "sku": "SKU-391-L",
+    "categoria": "Accesorios Tácticos"
+  },
+  {
+    "producto_id": "DROPI_15692",
+    "nombre": "Chaquetón Cupiditate HeavyCult",
+    "sku": "SKU-484-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_80436",
+    "nombre": "Camiseta Quae HeavyCult",
+    "sku": "SKU-394-S",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_12938",
+    "nombre": "Camiseta Autem HeavyCult",
+    "sku": "SKU-249-XL",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_35835",
+    "nombre": "Morral Possimus HeavyCult",
+    "sku": "SKU-345-XL",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_22044",
+    "nombre": "Morral Dolorem HeavyCult",
+    "sku": "SKU-452-L",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_74813",
+    "nombre": "Botas Ut HeavyCult",
+    "sku": "SKU-129-M",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_78634",
+    "nombre": "Camiseta Sit HeavyCult",
+    "sku": "SKU-152-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_74382",
+    "nombre": "Camiseta Officia HeavyCult",
+    "sku": "SKU-307-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_51907",
+    "nombre": "Camiseta Architecto HeavyCult",
+    "sku": "SKU-72-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_38399",
+    "nombre": "Chaquetón Facere HeavyCult",
+    "sku": "SKU-379-S",
+    "categoria": "Calzado Táctico"
+  },
+  {
+    "producto_id": "DROPI_33913",
+    "nombre": "Chaquetón Recusandae HeavyCult",
+    "sku": "SKU-336-L",
+    "categoria": "Ropa Oversize"
+  },
+  {
+    "producto_id": "DROPI_78469",
+    "nombre": "Botas Libero HeavyCult",
+    "sku": "SKU-472-XL",
+    "categoria": "Maletas y Morrales"
+  },
+  {
+    "producto_id": "DROPI_19189",
+    "nombre": "Morral Libero HeavyCult",
+    "sku": "SKU-373-S",
+    "categoria": "Calzado Táctico"
+  }
+]

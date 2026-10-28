@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+*.log
+*.pyo
+*.egg-info/
+dist/
+build/
+terraform/
+output/
+docs/diccionario_datos.md
+google-credentials.json

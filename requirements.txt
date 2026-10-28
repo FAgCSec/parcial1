@@ -1,0 +1,11 @@
+pymongo==4.6.1
+python-dotenv==1.0.0
+faker==24.12.0
+pyspark==3.5.3
+pyarrow==22.0.0
+pandas==2.3.3
+openpyxl==3.1.5
+boto3
+s3fs
+python-dotenv
+google-cloud-bigquery
